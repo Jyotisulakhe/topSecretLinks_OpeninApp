@@ -11,7 +11,7 @@ import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
-import Pages.InstagramPage;
+
 import Pages.LoginOpeninApp;
 import Pages.TopSecretLink1;
 import Pages.TopSecretLink2;
@@ -22,7 +22,6 @@ import generics.BaseTest;
 public class AutomateTopSecretLinks extends BaseTest{ //extending basetest class 
 	LoginOpeninApp la; // global variable of LoginOpeninApp class for accesiing there properties
 	Properties pr ;  // global variable of Properties for accesiing there properties from basic file
-	InstagramPage ip; // global variable of InstagramPage class  for accesiing there properties from InstagramPage class
 	TopSecretLink1 tl; // global variable of TopSecretLink1 class  for accesiing there properties from  TopSecretLink1 class
 	TopSecretLink2 tl2;// global variable of TopSecretLink2 class  for accesiing there properties from  TopSecretLink1 class
 	TopSecretLink3 tl3;// global variable of TopSecretLink3 class  for accesiing there properties from  TopSecretLink1 class
@@ -74,8 +73,11 @@ public class AutomateTopSecretLinks extends BaseTest{ //extending basetest class
 	@AfterTest // test case that have priority last, means this test case execute after completing each test 
 	public void instaLogIn() throws InterruptedException {
 
-		driver.get("https://www.instagram.com/");// using get method opening instagram application
-		ip.loginInstagram();//accessing data of loginInstagram method from  logininapp class
+	driver.get("https://www.instagram.com/");// using get method opening instagram application
+			driver.findElement(By.xpath("//input[@name='username']")).sendKeys("9325835658");
+			driver.findElement(By.xpath("//input[@name='password']")).sendKeys("insta@123");
+			driver.findElement(By.xpath("//button[@type='submit']")).click();
+
 			
 	}
 }
