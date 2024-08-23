@@ -72,6 +72,6 @@ The results of the tests, including passed and failed cases, are reported using 
 
 ## Instagram page
 
-![Screenshot 2024-08-23 110035](https://github.com/user-attachments/assets/a274a89e-3206-4eae-b5e2-30fdbbd74b9e)
+![Screenshot 2024-08-23 110243](https://github.com/user-attachments/assets/18ba713f-501b-487e-a196-aae084a000b5)
 
 
