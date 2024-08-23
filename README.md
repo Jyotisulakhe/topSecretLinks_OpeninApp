@@ -1,7 +1,7 @@
 
 # OpenInApp Web Application Automation
 
-This project automates key functionalities on the OpenInApp web application using Selenium WebDriver with Java. The automation script simulates user interactions on a mobile browser (Chrome or Safari) and covers creating resource links using the TopSecret Link feature and sharing these links on Instagram.
+This project automates key functionalities of the OpenInApp web application using Selenium WebDriver with Java. The automation scripts are designed to simulate user interactions in a Chrome browser, including the creation of resource links through the TopSecret Link feature, sharing these links on Instagram, and leveraging the Earn Money feature. This project aims to ensure these features perform seamlessly, enhancing the overall user experience.
 
 ## Table of Contents
 - [Overview](#overview)
